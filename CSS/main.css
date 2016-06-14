@@ -1,0 +1,124 @@
+body {
+
+
+}
+
+body * {
+/*border: 1px solid black;*/
+}
+
+div {
+ padding: 2px;
+}
+
+div label {
+  margin: 2px;
+  font-weight: bold;
+  font-size: 14px;
+  color:#108ac6;
+}
+
+div input {
+  transition: color, background-color, box-shadow;
+  transition-duration: 1.3s;
+  box-shadow: 0 0 0 black;
+  display: block;
+  box-sizing: border-box;
+  width:100%;
+  margin:2px;
+  padding:6px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  color:grey;
+  border: 1px solid black;
+
+}
+div input:hover {
+  transition: color, background-color, box-shadow;
+  transition-duration: 0.3s;
+  color: black;
+  background-color: white;
+  box-shadow: 0 0 5px #108ac6;
+
+}
+
+div textarea {
+  transition: color, background-color, box-shadow;
+  transition-duration: 1.3s;
+  display: block;
+  box-sizing: border-box;
+  width:100%;
+  height:48px;
+  margin:2px;
+  padding: 4px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  color:grey;
+  border:1px solid black;
+
+}
+
+div textarea:hover {
+  transition: color, background-color, box-shadow;
+  transition-duration: 0.3s;
+  box-shadow: 0 0 5px #108ac6;
+  background-color: white;
+  color:black;
+
+}
+
+div select {
+  transition: color, background-color, box-shadow;
+  transition-duration: 1.3s;
+  display: block;
+  margin:2px;
+  padding: 4px;
+  width: 100%;
+  background-color: #f9f9f9;
+  border:1px solid black;
+
+}
+
+div select:hover {
+  transition: background-color, box-shadow;
+  transition-duration: 0.3s;
+  box-shadow: 0 0 5px #108ac6;
+  display: block;
+  background-color: white;
+}
+input[type=checkbox],
+input[type=radio   ] {
+  transition: none;
+  width     : 10px;
+  margin    : 2px;
+  padding   : 4px;
+  font-size : 1em;
+  opacity   : 1;
+}
+
+input[type=checkbox]:hover,
+input[type=radio   ]:hover {
+  transition:none;
+  color: none;
+  background-color: none;
+  box-shadow: 0 0 0
+}
+
+div button {
+  transition: background-color, box-shadow;
+  transition-duration: 0.5s;
+  margin: 2px;
+  padding: 4px;
+  border:1px solid black;
+  border-radius: 5px;
+  background-color:white;
+  color:#bdbdbd;
+}
+
+div button:hover {
+  transition: background-color, color, box-shadow;
+  transition-duration: 0.2s;
+  box-shadow: 0 0 5px #108ac6;
+  background-color: #c4c4c4;
+  color: black;
+}
